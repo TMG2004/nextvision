@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextVision - Solutions Digitales</title>
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="image/logo3D.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="logo img">
+                    <img src="image/logo.jpg" alt="">
+                </div>
+                NextVision
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#team">Équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-menu-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#team">Équipe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="menu-overlay" id="menuOverlay"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Transformez vos idées en <span class="highlight">solutions digitales</span></h1>
+            <p>NextVision - Votre partenaire de confiance pour le développement web moderne. 4 développeurs passionnés, une vision commune : créer l'excellence digitale.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-eye"></i>
+                    Voir nos projets
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    Nous contacter
+                </a>
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projets réalisés</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Développeurs experts</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Années d'expérience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction client</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À Propos de <span>NextVision</span></h2>
+            <p class="section-subtitle">Nous sommes une équipe de 4 développeurs passionnés, dédiés à créer des solutions digitales innovantes qui transforment vos idées en réalité.</p>
+
+            <div class="mission">
+                <i class="fas fa-bullseye" style="font-size: 3rem; color: #00A19A; margin-bottom: 1rem;"></i>
+                <h3>Notre Mission</h3>
+                <p>"Chez NextVision, nous croyons que chaque projet mérite une attention particulière. Notre mission est de transformer vos visions en solutions digitales exceptionnelles, en combinant créativité, expertise technique et approche collaborative."</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Développement Web</h3>
+                    <p>Applications web modernes et performantes, avec les dernières technologies</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Applications Mobile</h3>
+                    <p>Solutions mobiles natives et cross-platform pour iOS et Android</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush service-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Interfaces utilisateur élégantes et expériences utilisateur optimisées</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cog service-icon"></i>
+                    <h3>Solutions Sur Mesure</h3>
+                    <p>Développement personnalisé selon vos besoins spécifiques</p>
+                </div>
+            </div>
+
+            <h3 style="text-align: center; margin-bottom: 2rem; color: #333;">Nos Valeurs</h3>
+            <div class="values-grid">
+                <div class="value-card">
+                    <i class="fas fa-lightbulb value-icon innovation"></i>
+                    <h4>Innovation</h4>
+                    <p>Toujours à la pointe des dernières technologies</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-handshake value-icon collaboration"></i>
+                    <h4>Collaboration</h4>
+                    <p>Partenariat étroit avec nos clients</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-star value-icon excellence"></i>
+                    <h4>Excellence</h4>
+                    <p>Qualité irréprochable dans chaque projet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Nos <span>Projets</span></h2>
+            <p class="section-subtitle">Découvrez une sélection de nos réalisations les plus marquantes. Chaque projet reflète notre engagement envers l'excellence et l'innovation.</p>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="webapp">Web App</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="website">Website</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="webapp">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="project-status">Terminé</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Plateforme de commerce électronique moderne avec système de paiement intégré et gestion des stocks en temps réel.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <button class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            Voir le projet
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="project-status">Terminé</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Application Mobile Banking</h3>
+                        <p>Application mobile sécurisée pour services bancaires avec authentification biométrique et notifications push.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <button class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            Voir le projet
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="webapp">
+                    <div class="project-image">
+                        <i class="fas fa-users"></i>
+                        <div class="project-status">Terminé</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Système de Gestion RH</h3>
+                        <p>Solution complète de gestion des ressources humaines avec module de paie et suivi des performances.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <button class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            Voir le projet
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Notre <span >Équipe</span></h2>
+            <p class="section-subtitle">Rencontrez les talents qui donnent vie à vos projets. Une équipe soudée, complémentaire et passionnée par l'excellence technologique.</p>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="member-photo">
+                        <!-- <i class="fas fa-user"></i> -->
+                         <img src="image/tadah.png" alt="">
+                    </div>
+                    <div class="member-name">Alex Martin</div>
+                    <div class="member-role">Lead Developer & Co-Founder</div>
+                    <p>Expert en architecture logicielle avec 5+ ans d'expérience. Passionné par les technologies modernes et l'innovation.</p>
+                    <div class="member-skills">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="member-photo">
+                        <img src="image/1.jpg" alt="">
+                    </div>
+                    <div class="member-name">Sarah Chen</div>
+                    <div class="member-role">Frontend Developer</div>
+                    <p>Creative et technique, elle transforme les concepts en interfaces utilisateur exceptionnelles et intuitives.</p>
+                    <div class="member-skills">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Figma</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="member-photo">
+                        <img src="image/2.jpg" alt="">
+                    </div>
+                    <div class="member-name">Mohamed Karim</div>
+                    <div class="member-role">Backend Developer</div>
+                    <p>Spécialisation en développement backend robuste et sécurisé. Expert en optimisation et scalabilité.</p>
+                    <div class="member-skills">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">DevOps</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="member-photo">
+                        <img src="image/3.jpg" alt="">
+                    </div>
+                    <div class="member-name">Emma Dubois</div>
+                    <div class="member-role">Mobile Developer</div>
+                    <p>Développeuse mobile passionnée, elle crée des applications performantes pour iOS et Android.</p>
+                    <div class="member-skills">
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Swift</span>
+                        <span class="skill-tag">Kotlin</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-stats">
+                <div class="team-stat">
+                    <div class="team-stat-number stat-4">4</div>
+                    <div>Développeurs Experts</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-number stat-15">15+</div>
+                    <div>Technologies Maîtrisées</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-number stat-50">50+</div>
+                    <div>Projets Livrés</div>
+                </div>
+                <div class="team-stat">
+                    <div class="team-stat-number stat-3">3+</div>
+                    <div>Années Ensemble</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-<span>nous</span></h2>
+            <p class="section-subtitle">Prêt à transformer vos idées en réalité digitale ? Contactez-nous pour discuter de votre projet.</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de Contact</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong><br>
+                            contact@nextvision.dev
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong>Téléphone</strong><br>
+                            +237 6XX XXX XXX
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Adresse</strong><br>
+                            Douala, Cameroun
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Horaires</strong><br>
+                            Lun - Ven: 8h00 - 18h00<br>
+                            Sam: 9h00 - 14h00
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 2rem;">
+                        <h4 style="margin-bottom: 1rem; color: #00A19A;">Suivez-nous</h4>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 style="margin-bottom: 2rem; color: #00A19A;">Envoyez-nous un message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required placeholder="Décrivez votre projet ou vos besoins..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i>
+                            Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NextVision</h3>
+                    <p>Votre partenaire de confiance pour tous vos projets de développement web et mobile. Nous créons des solutions digitales qui font la différence.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Développement Web</a></li>
+                        <li><a href="#">Applications Mobile</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@nextvision.dev</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+237 6XX XXX XXX</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Douala, Cameroun</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 NextVision. Tous droits réservés. | Conçu avec <i class="fas fa-heart" style="color: #e74c3c;"></i> par l'équipe NextVision</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
