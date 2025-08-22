@@ -299,7 +299,12 @@
             text-align: center;
             margin-bottom: 4rem;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
+         
 
         .mission h3 {
             color: var(--primary-color);
@@ -311,6 +316,10 @@
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-bottom: 4rem;
+            /* animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%; */
         }
 
         .service-card {
@@ -320,6 +329,10 @@
             text-align: center;
             box-shadow: 0 5px 20px rgba(0,0,0,0.1);
             transition: transform 0.3s;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .service-card:hover {
@@ -344,6 +357,10 @@
             border-radius: 15px;
             text-align: center;
             box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .value-icon {
@@ -366,6 +383,10 @@
             gap: 1rem;
             margin-bottom: 3rem;
             flex-wrap: wrap;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .filter-btn {
@@ -396,6 +417,10 @@
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             transition: transform 0.3s;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .project-card:hover {
@@ -436,6 +461,10 @@
             gap: 1rem;
             margin: 1rem 0;
             flex-wrap: wrap;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .tech-tag {
@@ -483,6 +512,10 @@
             text-align: center;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             transition: transform 0.3s;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .team-card:hover {
@@ -566,6 +599,10 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 2rem;
             text-align: center;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
         }
 
         .team-stat {
@@ -597,6 +634,12 @@
             gap: 4rem;
             align-items: start;
         }
+        .contact-info{
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
+        }
 
         .contact-info h3 {
             color: var(--primary-color);
@@ -621,6 +664,24 @@
             padding: 3rem;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
+        }
+        .logo3D{
+            /* background-color: red; */
+            margin-top: 30px;
+            width: 100%;
+            height: auto;
+            animation: subtil linear;
+            animation-timeline: view();
+            animation-range-start: cover 0%;
+            animation-range-end: contain 50%;
+        }
+        .logo3D img{
+            width: 100%;
+            /* height: 20px; */
         }
 
         .form-group {
@@ -765,6 +826,11 @@
 
             .stats {
                 grid-template-columns: repeat(2, 1fr);
+            }
+            .project-content{
+                justify-content: center;
+                align-items: center;
+                justify-items: center;
             }
         }
 
