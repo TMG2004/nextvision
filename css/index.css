@@ -634,13 +634,6 @@
             gap: 4rem;
             align-items: start;
         }
-        .contact-info{
-            animation: subtil linear;
-            animation-timeline: view();
-            animation-range-start: cover 0%;
-            animation-range-end: contain 50%;
-        }
-
         .contact-info h3 {
             color: var(--primary-color);
             margin-bottom: 2rem;
@@ -664,23 +657,15 @@
             padding: 3rem;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            animation: subtil linear;
-            animation-timeline: view();
-            animation-range-start: cover 0%;
-            animation-range-end: contain 50%;
         }
         .logo3D{
             /* background-color: red; */
             margin-top: 30px;
             width: 100%;
             height: auto;
-            animation: subtil linear;
-            animation-timeline: view();
-            animation-range-start: cover 0%;
-            animation-range-end: contain 50%;
         }
         .logo3D img{
-            width: 100%;
+            width: 50%;
             /* height: 20px; */
         }
 
